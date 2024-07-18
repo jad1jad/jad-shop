@@ -1,0 +1,113 @@
+.nav{
+    text-align: left;
+    margin-right: 200px;
+    position: relative;
+    left: 50%;
+    bottom: 40px;
+    top: 0px;
+}
+nav{
+    height: 100px;
+    background-color: rgba(28, 148, 92, 0.514);
+}
+
+.title{
+    display: flex ;
+    position: relative;
+    align-items: center;
+    left: 150px;
+    top: 30px; 
+}
+
+.skins{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pickaxes{
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: space-between; 
+}
+.gliders{
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+}
+.skinsbody{
+    background-image: url(others/background.webp);
+}
+.glidersbody{
+    background-image: url(/others/background.webp);
+}
+.pickaxesbody{
+    background-image: url(/others/background.webp);
+}
+.shopbody{
+    background-image: url(/others/background.jpg);
+}
+
+.pickaxes p{
+    text-align: center;
+}
+
+.gliders p{
+    text-align: center;
+}
+
+.skins p{
+    text-align: center;
+}
+
+.logo{
+    position:fixed
+}
+
+.nav:hover {
+    background-color: rgb(18, 199, 145);
+}
+
+.nav:link{
+    color: crimson;
+}
+
+.nav:visited{
+    color: yellow;
+}
+
+.nav:active{
+    color: black;
+}
+.pickaxes div{
+    width: 100px;
+    height: 100px;
+    transition: width 1s;
+  }
+  
+.pickaxes div:hover {
+    width: 300px;
+  }
+
+  .skins div{
+    width: 100px;
+    height: 100px;
+    transition: width 1s;
+  }
+  
+.skins div:hover {
+    width: 300px;
+  }
+
+  .gliders div{
+    width: 100px;
+    height: 100px;
+    transition: width 1s;
+  }
+  
+.gliders div:hover {
+    width: 300px;
+  }
+  .logo{
+    height: 100px ;
+  }
